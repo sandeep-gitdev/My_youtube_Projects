@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+     <div class="container">
+        <div class="apply_box">
+            <h2>Job Application
+            <span>(web)</span></h2>
+            <form action="">
+                <fieldset>
+                    <label for="F-name">First Name<input type="text" id="F-name" placeholder="Enter First Name..." required></label>
+                    <label for="L-name">Last Name<input type="text" id="l-name" placeholder="Enter Last Name..." required></label>
+                    <label for="email">Email <input type="email" id="email" placeholder="Enter Email" required></label>
+                    <label for="job">Job Role <select name="Backend Developer" id="role" required>
+                        <option value="">Backend Developer</option>
+                        <option value="1">Frontend Developer</option> 
+                        <option value="2">Full Stack Developer</option>
+                        <option value="3">QA Tester</option>
+                     </select>
+                    </label>
+                    <label for="address">
+                        Enter Address <textarea name="Address" id="address"></textarea>
+                    </label>
+                 
+                    <label for="city">City <input type="text" id="city" placeholder="Enter City..." requred></label>
+                    <label for="pin">Pincode <input type="text" id="pin" name="pincode" placeholder="Enter Pincode..." required></label>
+                    <label for="sdate">Start Date <input type="date" name="date" required> </label>
+                    <label for="cv">Upload Your CV <input type="file" id="cv" requred></label>
+                </fieldset>    
+            </form>
+            <div class="btn">
+            <label for="submit">
+                <button type="submit">Apply</button>
+            </label>
+
+        </div>
+        </div>
+     </div>
+</body>
+</html>
