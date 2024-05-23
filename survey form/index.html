@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freecodecamp survey form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+      <h1 id="title">Title</h1> 
+      <p id="description">paragraph</p>
+      <form id="survey-form">
+        <label id="name-label">
+            Name   <input type="text" id="name" placeholder="Enter your name" required>
+        </label>
+        <label id="email-label">
+            Email <input type="email" id="email" placeholder="Enter your Email" required>
+        </label>
+        <label id="number-label">
+            Age   <input type="number" id="number" min="10" max="99" placeholder="Age" required>
+        </label>
+        
+        <label id="select"> <select name="Role" id="dropdown">
+            <option value="Frontend">Frontend Developer</option>
+            <option value="backend">Backend Developer</option>
+            <option value="Fullstack">Fullstack Developer</option>
+            <option value="senior-eng">Senior Software Engineer</option>
+        </select>
+        </label>
+        <label id=""><input type="radio" name=""></label>
+        <label id=""><input type="radio" name=""></label>
+
+        <div>
+        <label id="extra"> why we hire you
+            <textarea name="" id="Details"></textarea>
+        </label>
+    </div>
+        <input type="submit" id="submit"> Submit
+      </form>
+</body>
+</html>
