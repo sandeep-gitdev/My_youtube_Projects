@@ -7,35 +7,69 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-      <h1 id="title">Title</h1> 
-      <p id="description">paragraph</p>
+      <div class="heading">
+      <h1 id="title">Freecodecamp Survey For Developer</h1> 
+      <p id="description" class="description_text">
+           To Find talented and skillfull person global level
+      </p>
+    </div>
       <form id="survey-form">
-        <label id="name-label">
-            Name   <input type="text" id="name" placeholder="Enter your name" required>
+        <div class="form-group">
+        <label id="name-label" for="name"> Name 
+             <input type="text" id="name" placeholder="Enter your name" required>
         </label>
-        <label id="email-label">
-            Email <input type="email" id="email" placeholder="Enter your Email" required>
+    </div>
+          <div class="form-group">
+        <label id="email-label" for="email">Email
+             <input type="email" id="email" placeholder="Enter your Email" required>
         </label>
-        <label id="number-label">
-            Age   <input type="number" id="number" min="10" max="99" placeholder="Age" required>
+          </div>
+          <div class="form-group">
+        <label id="number-label" for="age"> Age 
+             <input type="number" id="number" min="10" max="99" placeholder="Age" required>
         </label>
-        
-        <label id="select"> <select name="Role" id="dropdown">
+         </div>
+          <div class="form-group">
+          <p>Select your prefrence</p>
+            <select name="Role" id="dropdown">
             <option value="Frontend">Frontend Developer</option>
             <option value="backend">Backend Developer</option>
             <option value="Fullstack">Fullstack Developer</option>
             <option value="senior-eng">Senior Software Engineer</option>
         </select>
-        </label>
-        <label id=""><input type="radio" name=""></label>
-        <label id=""><input type="radio" name=""></label>
+        </div>
+        
+          <div class="form-group">
+            <p>would your recommed freecodecamp to a friend</p>
+        <label><input type="radio" value="test1" name="test">Definitely</label>
+       <label> <input type="radio" value="test2" name="test">Maybe</label>
+       <label> <input type="radio" value="test3" name="test">Not sure</label>
+    </div>
 
+        <!-- <div class="form-group">
+        <p>Programming Languages</p>
+        </div> -->
+        
+        <div class="form-group">
+            <p>what wyould you like to see improved?
+                <span class="clue">(check all that apply)</span>
+            </p>
+            <label ><input type="checkbox" value="checkbox1">  Front-end project </label>     
+            <label ><input type="checkbox" value="checkbox2">  Back-end project</label>
+            <label ><input type="checkbox" value="checkbox3">  Data visualization</label>
+            <label ><input type="checkbox" value="checkbox3">  Data visualization</label>
+            <label ><input type="checkbox" value="checkbox3">  open source community</label>
+            <label ><input type="checkbox" value="checkbox3">  gitter help room</label>
+        
+        </div>
         <div>
-        <label id="extra"> why we hire you
-            <textarea name="" id="Details"></textarea>
+        <label> Any suggestions
+            <textarea name="" id="comment" name="comment" placeholder="write something"></textarea>
         </label>
     </div>
-        <input type="submit" id="submit"> Submit
+      <div class="form-group">
+        <input type="submit" id="submit" class="submit-btn"> 
+    </div>
       </form>
 </body>
 </html>

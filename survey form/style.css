@@ -1,4 +1,67 @@
 *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 
-    background-color:aqua;
 }
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%;
+    height: auto;
+    background: linear-gradient(120deg,rgb(143, 224, 238),rgb(233, 197, 131));
+   
+}
+
+h1{
+    font-weight: 400;
+    line-height: 1.2;
+
+}
+
+p{
+    font-size: 1.123rem;
+}
+
+h1, p{
+    margin-top: 0;
+    margin-bottom: 0.5;
+}
+
+label {
+    display: flex;
+    align-items: center;
+    font-size: 1.125rem;
+    margin-bottom: 0.5rem;
+    margin-left: 10px;
+
+}
+
+input, select, textarea{
+    margin: 10px;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+input[type="submit"]{
+        border: 1px soild black;
+        display: block;
+        width: 60%;
+        margin: 1em auto;
+        height: 2em;
+        font-size: 1.1rem;
+        background-color: #a7a84e;
+        border-color: rgb(179, 218, 162);
+        min-width: 300px;
+      }
+
+
+  .heading{
+    width: 100%;
+    display:inline;
+    width: 100px;
+    margin: 0 auto ;
+
+  }
+
