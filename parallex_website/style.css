@@ -1,4 +1,5 @@
-html,body{
+html,
+body{
     height: 100%;
     margin: 0;
     font-size: 16px;
@@ -15,20 +16,23 @@ html,body{
 }
 
  .pimg2{
-    background-image: url(image/img2.jpg);
+    background-image: url(image/mountain-6086083_1280.jpg);
     min-height: 400px;
  }
 
    .pimg3{
-    background-image: url(image/img3.jpg);
+    background-image: url(image/img2.jpg);
     min-height: 400px;
    }
 
-.pimg1, .pimg2, pimg3{
+.pimg1,
+ .pimg2,
+.pimg3{
     position: relative;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed ;
 }
 
 .ptext{
@@ -45,16 +49,24 @@ html,body{
 }
 
 .textbg {
-   background-color: rgb(146, 142, 142);
+   background: #313534;
+  color: #fff;
    padding: 20px;
 }
 
 .section{
-  padding: 50pc 80px;
+  padding: 50px 80px;
   text-align: center;
 
 }
 
  .section-light {
    background-color: rgb(49, 48, 48);
+   color: #666
+
  }
+
+  .section-dark {
+   background-color: #282e34;
+   color: #ddd;
+  }
