@@ -11,12 +11,14 @@ body{
 
 .pimg1 {
    background-image: url(image/img1.jpg); 
+   background-size: cover;
    min-height: 100%;
    
 }
 
  .pimg2{
     background-image: url(image/mountain-6086083_1280.jpg);
+    background-size: cover;
     min-height: 400px;
  }
 
